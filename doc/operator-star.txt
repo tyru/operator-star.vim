@@ -33,6 +33,14 @@ INTRODUCTION						*operator-star-introduction* {{{
 This plugin provides the operator versions
 of |star|, |gstar|, |#|, |g#|.
 
+No default keymappings, so please map to
+your favorite keymappings like the followings:
+>
+	nmap <Leader>*  <Plug>(operator-*)
+	nmap <Leader>g* <Plug>(operator-g*)
+	nmap <Leader>#  <Plug>(operator-#)
+	nmap <Leader>g# <Plug>(operator-g#)
+
 }}}
 ==============================================================================
 REQUIREMENTS						*operator-star-requirements* {{{
