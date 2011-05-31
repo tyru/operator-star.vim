@@ -13,7 +13,10 @@ set cpo&vim
 " }}}
 
 
-call operator#user#define('star', 'operator#star#do')
+call operator#user#define('*', 'operator#star#star')
+call operator#user#define('g*', 'operator#star#gstar')
+call operator#user#define('#', 'operator#star#sharp')
+call operator#user#define('g#', 'operator#star#gsharp')
 
 
 " Restore 'cpoptions' {{{
