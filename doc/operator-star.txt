@@ -24,9 +24,6 @@ Introduction		|operator-star-introduction|
 Requirements		|operator-star-requirements|
 Interface			|operator-star-interface|
   Keymappings		|operator-star-keymappings|
-  Variables			|operator-star-variables|
-  Commands			|operator-star-commands|
-TODO				|operator-star-todo|
 Changelog			|operator-star-changelog|
 
 
