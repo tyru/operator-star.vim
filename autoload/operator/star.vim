@@ -43,8 +43,9 @@ delfunction s:SID
 function! s:operator(command, wiseness)
     let visualstar = '(visualstar-' . a:command . ')'
     if maparg('<Plug>' . visualstar, 'v', 0) == ''
-        echoerr 'operator-star: '
+        echoerr 'operator-star:'
         \       'you must have installed visualstar.vim'
+        \       '(see :help operator-star-requirements)'
         return
     endif
 
