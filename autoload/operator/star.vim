@@ -50,7 +50,7 @@ function! s:operator(command, wiseness)
     endif
 
     let visual_command = s:get_visual_command(a:wiseness)
-    execute 'nmap <SID>(reselect)' '`['.visual_command.'`]'
+    execute 'nnoremap <SID>(reselect)' '`['.visual_command.'`]'
     let reselect = "\<SNR>" . s:SID_PREFIX . "_(reselect)"
 
     execute 'normal' reselect . "\<Plug>" . visualstar
