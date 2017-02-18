@@ -1,4 +1,4 @@
-*operator-star.txt* *operator-star*
+*operator-star.txt*
 
 Author:
   tyru <tyru.exe@gmail.com>
